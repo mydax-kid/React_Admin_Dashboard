@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
     const handleDelete = (id: number) => {
       //delete the item
       // mutation.mutate(id)
+      console.log(id)
     };
   
     const actionColumn: GridColDef = {
